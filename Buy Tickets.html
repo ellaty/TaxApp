@@ -51,26 +51,75 @@
 	</header>
 
    <p>
-	<div class="container">
+  
+	<div class="div-adjacent">
 		<div class="row">
 			<div class="col-lg-12">
 			<div class="contents">
-					<h2>Get outstanding travel information<span>in</span> and <span>out of Kigali</span> to everywhere in Rwanda</h2>
-					<marquee><label ><p style="color:black"><i>Please you fill tthe following form and let us satisfy you.</i></p></label></marquee>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" style="margin-left:85px">
+      <img style="height:220px" src="./img/kigalitwo.jpg" alt="kigali">
+      <div class="carousel-caption" style="margin-top:40px">
+        <h3>kigali</h3>
+        <br style="color:black";"margin-top:100px">get out standing information.</br>
+      </div>
+    </div>
+
+    <div class="item" style="margin-left:85px">
+      <img style="height:220px";"width:500px" src="./img/kigali3.jpg" alt="kigali"> 
+      <div class="carousel-caption">
+        <h3>kigali</h3>
+        <br>in and out .</br>
+      </div>
+    </div>
+
+    <div class="item" style="margin-left:85px">
+      <img style="height:220px" src="./img/gisenyi.jpg" alt="kigali"> 
+    </div>
+
+    <div class="item" style="margin-left:85px">
+      <img style="height:220px" src="./img/gisenyi2.jpg" alt="kigali"><div class="carousel-caption">
+        <h3>gisenyi</h3>
+        <br>of kigali.</br>
+      </div> 
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 				</div>
 				
-				</p>
+				
 		
 		
 	</div>
-	<div class="container"style="width:600px;margin-left:400px;">
-			<form role="form">
-			  <div class="form-group">
-					    <label for="inputdefault" style="color:black">Your names</label>
-					    <input class="form-control" id="inputdefault" type="text">
-			  </div>
+</div>s
+</div>
+	<div class="div-adjacent"style="margin-top:300px">
 
-             <div class="form-group">
+
+
+
+			<form>
+			<div class="form-group">
 					    <label for="inputdefault" style="color:black">Your location</label>
 					    <input class="form-control" id="inputdefault" type="text">
 			  </div>
@@ -83,7 +132,7 @@
                       <span style="color:black">Adults:</span>
 			            <select name=" " size="1" style="color:black">
 							<option value="1">1 </option>
-							<option value="2"> 2</option>
+							<option value="2">2</option>
 							<option value="3">3 </option>
 							<option value="4">4 </option>
 							<option value="5">5 </option>
@@ -143,119 +192,372 @@
 							<option value="bus">bus </option>
 							<option value="autocar">autocar</option>
 					    </select>
-			  </div>
-			   <div class="form-group" style="color:black"> 
-					    <label for="inputsm">Haw are you going to pay:</label>
+					</div>
+					 <button type="submit" class="btn btn-default">submit</button>
+					</form>
+			  </div></div>yle
+			   <div class="buy-canvas"class="form-group" style="color:black" > 
+					    <label for="inputsm">Pay your ticket with:</label>
 					   
 			
 
 <div class="container">
+   <span> 
 
-                   <span>  <button onclick="myFunction()"><img src="./img/tigo.jpg" alt="tigocash"></button>
-
-
-
-<script>
-function myFunction() {
-    var person = prompt("Please enter your phone number", " ");
-    var person = prompt("Please enter your pin code", " ");
-    var person = prompt("Please enter the amount", " ");
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalHorizontal"><img src="./img/tigo.jpg" alt="tigocash">
     
-    if (person != null) {
-        document.getElementById("demo").innerHTML =
-        "Hello thank u for working with us";
-    }
-}
-</script></span>
+</button>
 
-
-
-
-		
-                   <span>  <button onclick="myFunction()"><img src="./img/mtn.jpg" alt="mobile money"></button>
-
-
-
-<script>
-function myFunction() {
-    var person = prompt("Please enter your phone number", " ");
-    var person = prompt("Please enter your pin code", " ");
-    var person = prompt("Please enter the amount", " ");
-    
-    if (person != null) {
-        document.getElementById("demo").innerHTML =
-        "Hello thank u for working with us";
-    }
-}
-</script></span>
-
-
-					
-	  		
-
-                     <button onclick="myFunction()"><img src="./img/airtel.jpg" alt="airtel money"></button>
-
-
-
-<script>
-function myFunction() {
-    var person = prompt("Please enter your phone number", " ");
-    var person = prompt("Please enter your pin code", " ");
-    var person = prompt("Please enter the amount", " ");
-    
-    if (person != null) {
-        document.getElementById("demo").innerHTML =
-        "Hello thank u for working with us";
-    }
-}
-</script>
-
-
-  <button onclick="myFunction()"><img src="./img/paypal.jpg" alt="paypal"></button>
-
-
-
-<script>
-function payFunction() {
-    var human = prompt("Please enter your email", " ");
-    var human = prompt("Please enter your password", " ");
-    var human = prompt("Please enter the amount", " ");
-    
-    if (human != null) {
-        document.getElementById("demo").innerHTML =
-        "Hello thank u for working with us";
-    }
-}
-</script>
-
-
-
-		
-			<button type="button" class="btn btn-primary">cash</button>				
-
-
+<!-- Modal -->
+<div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog" style="background-image: url("btigo.jpg")"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                   Pay with tigo cash
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  class="col-sm-5 control-label"
+                              for="inputText3">Your number</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" 
+                        id="inputText3" placeholder="(+250)7..."/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-5 control-label"
+                          for="inputPassword3" >your Pin</label>
+                    <div class="col-sm-7">
+                        <input type="password" class="form-control"
+                            id="inputPassword3" placeholder="Pin"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-sm-5 control-label"
+                              for="inputText3">amount</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" 
+                        id="inputEmail3" placeholder="amount"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <div class="checkbox">
+                        <label>
+                            <input type="checkbox"/> Remember me
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Pay</button>
+                    </div>
+                  </div>
+                </form>
+                
+                
+                
+                
+                
+                
+            </div>
+            
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+               
+            </div>
+        </div>
+    </div>
 </div>
 
-		
+
+   </span>
+	
+	<span> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myMtn"><img src="./img/mtn.jpg" alt="mtn money">
+    
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myMtn" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                   Pay with MTN mobile money
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  class="col-sm-5 control-label"
+                              for="inputText3">Your number</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" 
+                        id="inputText3" placeholder="(+250)7..."/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-5 control-label"
+                          for="inputPassword3" >your Pin</label>
+                    <div class="col-sm-7">
+                        <input type="password" class="form-control"
+                            id="inputPassword3" placeholder="Pin"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-sm-5 control-label"
+                              for="inputText3">amount</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" 
+                        id="inputEmail3" placeholder="amount"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <div class="checkbox">
+                        <label>
+                            <input type="checkbox"/> Remember me
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Pay</button>
+                    </div>
+                  </div>
+                </form>
+                
+                
+                
+                
+                
+                
+            </div>
+            
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+               
+            </div>
+        </div>
+    </div>
+</div></span>
+   <span> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalAirtel"><img src="./img/airtel.jpg" alt="airtel money">
+    
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModalAirtel" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                   Pay with airtel money
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  class="col-sm-5 control-label"
+                              for="inputText3">Your number</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" 
+                        id="inputText3" placeholder="(+250)7..."/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-5 control-label"
+                          for="inputPassword3" >your Pin</label>
+                    <div class="col-sm-7">
+                        <input type="password" class="form-control"
+                            id="inputPassword3" placeholder="Pin"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-sm-5 control-label"
+                              for="inputText3">amount</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" 
+                        id="inputEmail3" placeholder="amount"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <div class="checkbox">
+                        <label>
+                            <input type="checkbox"/> Remember me
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Pay</button>
+                    </div>
+                  </div>
+                </form>
+                
+                
+                
+                
+                
+                
+            </div>
+            
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+               
+            </div>
+        </div>
+    </div>
+</div></span>
+
+<span>
+	 <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalPapypal"><img src="./img/paypal.jpg" alt="paypal">
+    
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModalPapypal" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                   Pay with Paypal
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  class="col-sm-5 control-label"
+                              for="inputEmail3">Your Email</label>
+                    <div class="col-sm-7">
+                        <input type="email" class="form-control" 
+                        id="inputText3" placeholder="email"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-5 control-label"
+                          for="inputPassword3" >your password</label>
+                    <div class="col-sm-7">
+                        <input type="password" class="form-control"
+                            id="inputPassword3" placeholder=""/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-sm-5 control-label"
+                              for="inputText3">amount</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" 
+                        id="inputEmail3" placeholder="amount"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <div class="checkbox">
+                        <label>
+                            <input type="checkbox"/> Remember me
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Pay</button>
+                    </div>
+                  </div>
+                </form>
+                
+                
+                
+                
+                
+                
+            </div>
+            
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+               
+            </div>
+        </div>
+    </div>
+</div>
+</span>
+
+<button type="button" class="btn btn-primary">cash</button>				
 
 
-
-						
-						
-						
-			  </div>
-			</form>
+</div>					
+			 </div>
+			
 	</div>
-	<!-- Responsive slider - START -->
-	
-    <!-- Responsive slider - END -->
 	
 	
 	</div>
 	
 
 	
-	<div class="container">
+	<div class="container" style="margin-top:900px">
 		<div class="row">
 			<div class="recent">
 				<button class="btn-primarys"><h3>All the modes of transport</h3></button>
@@ -322,27 +624,7 @@ function payFunction() {
 	</div>
 	
 	
-	<!-- <div class="container">
-		<div class="row">
-			<div class="box">
-				
-				<div class="col-md-6">
-					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.8s">
-						<div class="align-center">
-							<h4>Quick Support</h4>					
-							<div class="icon">
-								<i class="fa fa-heart-o fa-3x"></i>
 
-							</div>
-							<p>
-							 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
-							</p>
-							<div class="ficon">
-								<a href="" alt="">Learn more</a> <i class="fa fa-long-arrow-right"></i>
-							</div>
-						</div>
-					</div>
-				</div>
 				<div class="col-md-6">
 					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.3s">
 						<div class="align-center">
@@ -365,87 +647,8 @@ function payFunction() {
 	</div> -->
 	
 	
-	<!--about-->
-	
-		
-	
-	<!--/about-->
 	
 	
-	<!-- <div class="container">
-		<div class="row">
-			<div class="recent">
-				<button class="btn-primarys"><h3>Our Team</h3></button>
-				<hr>
-			</div>
-		</div>
-	</div> -->
-	
-	<!-- <div class="container">
-		<div class="row">
-			<div class="content">
-				<div class="col-md-4">
-					<div class="wow fadeInUp" data-wow-delay="0.2s">
-						<div class="align-center">
-							<h4>Alexandra</h4>	
-							<div class="icon">
-								<i class="fa fa-tasks fa-3x"></i>
-							</div>
-							<img src="img/team/3.jpg" alt="" class="img-responsive">
-							<p>
-							 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
-							</p>
-							<div class="ficon">
-								<a href="" alt="">Learn more</a><i class="fa fa-long-arrow-right"></i>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="wow fadeInUp" data-wow-delay="0.4s">
-						<div class="align-center">
-							<h4>John Doe</h4>					
-							<div class="icon">
-								<i class="fa fa-files-o fa-3x"></i>
-							</div>
-							<img src="img/13.jpg" alt="" class="img-responsive">
-							<p>
-							 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
-							</p>
-							<div class="ficon">
-								<a href="" alt="">Learn more</a> <i class="fa fa-long-arrow-right"></i>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="wow fadeInUp" data-wow-delay="0.6s">
-						<div class="align-center">
-							<h4>Kelly Hidayah</h4>					
-							<div class="icon">
-								<i class="fa fa-location-arrow fa-3x"></i>
-							</div>
-							<img src="img/team/members3.jpg" alt="" class="img-responsive">
-							<p>
-							 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
-							</p>
-							<div class="ficon">
-								<a href="" alt="">Learn more</a> <i class="fa fa-long-arrow-right"></i>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	 -->
-	<div class="container">
-		<div class="row">
-			<hr>
-		</div>
-	</div>
-	
-	<!--start footer-->
 	<footer>
 		<div class="container">
 			<div class="row">
@@ -485,16 +688,7 @@ function payFunction() {
 						</ul>
 					</div>
 				</div>
-				<!-- <div class="col-lg-3">
-					<div class="widget">
-						<h5 class="widgetheading">Flickr photostream</h5>
-						<div class="flickr_badge">
-							<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-						</div>
-						<div class="clear">
-						</div>
-					</div>
-				</div> -->
+				
 			</div>
 		</div>
 		
