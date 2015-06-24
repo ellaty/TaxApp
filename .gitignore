@@ -1,0 +1,22 @@
+# TaxApp 5
+
+.env
+/vendor
+composer.lock
+composer.phar
+/config/local
+
+# node.js
+
+/node_modules
+
+# general
+
+.DS_Store
+Thumbs.db
+/.idea
+
+*.mp4
+*.mkv
+/public/video
+/config/mail.php

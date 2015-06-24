@@ -14,9 +14,14 @@ html,body{
 }
 
 body{
-  	padding-top:50px; /*padding for navbar*/
+  	padding-top:50px; /*
+    padding for navbar*/
+    background-image:url('../img/hills.jpg');
+     background-repeat:no-repeat;
 }
-
+#navbar{
+    background-image: url("blue.jpg");
+}
 .navbar-custom .icon-bar {
 	background-color:#fff;
 }
