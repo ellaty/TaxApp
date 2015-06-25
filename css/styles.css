@@ -1,4 +1,32 @@
-/*
+.map-canvas {
+    width:50%;
+    padding:10px;
+    height:calc(100% - 0);
+    position:absolute;
+    right:16px;
+    top:100px;
+    bottom:0;
+    overflow:hidden;
+}/* ==== Google font ==== *//* --- Map --- */
+.map{
+    position:relative;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.map iframe{
+    width:100%;
+    height:450px;
+    border:none;
+}
+
+.map-grid iframe{
+    width:100%;
+    height:350px;
+    border:none;
+    margin:0 0 -5px 0;
+    padding:0;
+}/*
 A custom Bootstrap 3.1 theme from http://bootply.com\
 
 This CSS code should follow the 'bootstrap.css'
@@ -16,11 +44,29 @@ html,body{
 body{
   	padding-top:50px; /*
     padding for navbar*/
-    background-image:url('../img/hills.jpg');
-     background-repeat:no-repeat;
+    
 }
 #navbar{
-    background-image: url("blue.jpg");
+    background/* --- Map --- */
+.map{
+    position:relative;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.map iframe{
+    width:100%;
+    height:450px;
+    border:none;
+}
+
+.map-grid iframe{
+    width:100%;
+    height:350px;
+    border:none;
+    margin:0 0 -5px 0;
+    padding:0;
+}-image: url("blue.jpg");
 }
 .navbar-custom .icon-bar {
 	background-color:#fff;
@@ -67,3 +113,11 @@ body{
     bottom:0;
     overflow:hidden;
 }
+
+@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700');
+/* === fontawesome === */
+@import url('font-awesome.css');
+
+/* ==== overwrite bootstrap standard ==== */
+@import url('overwrite.css');
+@import url('animate.css');
