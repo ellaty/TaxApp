@@ -4,10 +4,13 @@
     height:calc(100% - 0);
     position:absolute;
     right:16px;
-    top:100px;
+    top:200px;
     bottom:0;
     overflow:hidden;
 }/* ==== Google font ==== *//* --- Map --- */
+.resizehome{
+    width:80%;
+}
 .map{
     position:relative;
     margin-top:20px;
